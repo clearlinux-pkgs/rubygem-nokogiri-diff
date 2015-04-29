@@ -1,0 +1,47 @@
+From d19efb01389d16c20506be404f2e5713f9ef63e5 Mon Sep 17 00:00:00 2001
+From: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+Date: Thu, 9 Jul 2015 22:11:19 +0000
+Subject: [PATCH] Fix rspec version
+
+Signed-off-by: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+---
+ Rakefile            | 2 +-
+ gemspec.yml         | 2 +-
+ spec/spec_helper.rb | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/Rakefile b/Rakefile
+index 1b8a92d..66583ee 100644
+--- a/Rakefile
++++ b/Rakefile
+@@ -12,7 +12,7 @@ rescue LoadError => e
+ end
+ 
+ begin
+-  gem 'rspec', '~> 2.4'
++  gem 'rspec', '>= 2.4'
+   require 'rspec/core/rake_task'
+ 
+   RSpec::Core::RakeTask.new
+diff --git a/gemspec.yml b/gemspec.yml
+index 5ae611d..0997d63 100644
+--- a/gemspec.yml
++++ b/gemspec.yml
+@@ -18,5 +18,5 @@ dependencies:
+ 
+ development_dependencies:
+   rubygems-tasks: ~> 0.1
+-  rspec: ~> 2.4
++  rspec: >= 2.4
+   yard: ~> 0.7
+diff --git a/spec/spec_helper.rb b/spec/spec_helper.rb
+index 4b9ecea..dc8767d 100644
+--- a/spec/spec_helper.rb
++++ b/spec/spec_helper.rb
+@@ -1,2 +1,2 @@
+-gem 'rspec', '~> 2.4'
++gem 'rspec', '>= 2.4'
+ require 'rspec'
+-- 
+2.4.2
+
