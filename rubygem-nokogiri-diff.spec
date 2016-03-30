@@ -4,7 +4,7 @@
 #
 Name     : rubygem-nokogiri-diff
 Version  : 0.2.0
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/nokogiri-diff-0.2.0.gem
 Source0  : https://rubygems.org/downloads/nokogiri-diff-0.2.0.gem
 Summary  : No detailed summary available
@@ -13,15 +13,12 @@ License  : MIT
 BuildRequires : ruby
 BuildRequires : rubygem-devise
 BuildRequires : rubygem-diff-lcs
-BuildRequires : rubygem-mini_portile
-BuildRequires : rubygem-nokogiri
 BuildRequires : rubygem-rdoc
 BuildRequires : rubygem-rspec
 BuildRequires : rubygem-rspec-core
 BuildRequires : rubygem-rspec-expectations
 BuildRequires : rubygem-rspec-mocks
 BuildRequires : rubygem-rspec-support
-BuildRequires : rubygem-tdiff
 Patch1: 0001-Fix-rspec-version.patch
 
 %description
@@ -70,37 +67,23 @@ popd
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/nokogiri-diff-0.2.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/Diff/cdesc-Diff.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/XML/Document/cdesc-Document.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/XML/Document/tdiff-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/XML/Document/tdiff_unordered-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/XML/Node/cdesc-Node.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/XML/Node/diff-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/XML/Node/tdiff_each_child-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/XML/Node/tdiff_equal-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/XML/cdesc-XML.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/Nokogiri/cdesc-Nokogiri.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/page-ChangeLog_md.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/page-LICENSE_txt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/nokogiri-diff-0.2.0/ri/page-README_md.ri
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/.document
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/.gemtest
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/.rspec
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/.yardopts
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/ChangeLog.md
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/LICENSE.txt
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/README.md
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/gemspec.yml
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff/xml.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff/xml/document.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff/xml/node.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/nokogiri-diff.gemspec
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/spec/diff_spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/nokogiri-diff-0.2.0/spec/spec_helper.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/nokogiri-diff-0.2.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/nokogiri-diff-0.2.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/.document
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/.gemtest
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/.rspec
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/.yardopts
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/ChangeLog.md
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/LICENSE.txt
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/README.md
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/gemspec.yml
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff/xml.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff/xml/document.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/lib/nokogiri/diff/xml/node.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/nokogiri-diff.gemspec
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/spec/diff_spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/nokogiri-diff-0.2.0/spec/spec_helper.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/nokogiri-diff-0.2.0.gemspec
